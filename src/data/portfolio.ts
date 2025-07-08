@@ -1,15 +1,15 @@
 import { PersonalInfo, Project, Skill, Experience, Education } from "@/types";
 
 export const personalInfo: PersonalInfo = {
-  name: "Tu Nombre",
+  name: "Osver Kylver",
   title: "Estudiante de Ingeniería de Sistemas",
   description: "Apasionado por la tecnología y el desarrollo de software. Especializado en desarrollo web full-stack con experiencia en React, Node.js y bases de datos. Siempre buscando nuevos desafíos y oportunidades para crecer profesionalmente.",
   image: "/profile-placeholder.jpg",
   resume: "/resume.pdf",
   contact: {
-    email: "tu.email@ejemplo.com",
-    phone: "+57 300 123 4567",
-    location: "Bogotá, Colombia",
+    email: "kilverpaucar1@gmail.com",
+    phone: "+ 51 960 857 646",
+    location: "Coishco, Perú",
     social: {
       github: "https://github.com/tuusuario",
       linkedin: "https://linkedin.com/in/tuusuario",
