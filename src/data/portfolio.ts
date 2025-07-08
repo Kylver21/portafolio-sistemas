@@ -4,7 +4,7 @@ export const personalInfo: PersonalInfo = {
   name: "Osver Kylver",
   title: "Estudiante de Ingeniería de Sistemas",
   description: "Apasionado por la tecnología y el desarrollo de software. Especializado en desarrollo web full-stack con experiencia en React, Node.js y bases de datos. Siempre buscando nuevos desafíos y oportunidades para crecer profesionalmente.",
-  image: "/profile-placeholder.jpg",
+  image: "yo.jpg",
   resume: "/resume.pdf",
   contact: {
     email: "kilverpaucar1@gmail.com",
@@ -146,8 +146,8 @@ export const education: Education[] = [
   {
     id: "1",
     degree: "Ingeniería de Sistemas",
-    institution: "Universidad Nacional de Colombia",
-    period: "2021 - 2025",
+    institution: "Universidad Tecnologica del Perú",
+    period: "2022 - 2026",
     description: "Enfoque en desarrollo de software, bases de datos y arquitectura de sistemas. Participación activa en proyectos de investigación y desarrollo.",
     gpa: "4.2/5.0"
   },
