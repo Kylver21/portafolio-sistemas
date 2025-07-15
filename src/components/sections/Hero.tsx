@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/Button';
 import { Container } from '@/components/ui/Container';
 import { useScrollTo } from '@/hooks/useScrollTo';
 import { personalInfo } from '@/data/portfolio';
+import Image from 'next/image';
 
 export const Hero = () => {
   const { scrollToSection } = useScrollTo();
@@ -211,11 +212,13 @@ export const Hero = () => {
                 
                 {/* Main Image Container */}
                 <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-white dark:border-gray-800 shadow-2xl">
-                  <div className="w-full h-full bg-gradient-to-br from-blue-100 to-purple-100 dark:from-blue-900 dark:to-purple-900 flex items-center justify-center">
-                    <div className="text-6xl md:text-7xl lg:text-8xl font-bold text-blue-600 dark:text-blue-400">
-                      {personalInfo.name.charAt(0)}
-                    </div>
-                  </div>
+                  <Image
+                    src="/yo.jpg"
+                    alt={personalInfo.name}
+                    fill
+                    className="object-cover"
+                    sizes="(max-width: 768px) 16rem, (max-width: 1024px) 20rem, 24rem"
+                  />
                 </div>
                 
                 {/* Animated Rings */}

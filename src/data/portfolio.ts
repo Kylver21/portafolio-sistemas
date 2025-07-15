@@ -4,15 +4,15 @@ export const personalInfo: PersonalInfo = {
   name: "Osver Kylver",
   title: "Estudiante de Ingeniería de Sistemas",
   description: "Apasionado por la tecnología y el desarrollo de software. Especializado en desarrollo web full-stack con experiencia en React, Node.js y bases de datos. Siempre buscando nuevos desafíos y oportunidades para crecer profesionalmente.",
-  image: "yo.jpg",
-  resume: "/resume.pdf",
+  image: "/Kylver.jpg",
+  resume: "/cv-kylver-paucar.pdf",
   contact: {
     email: "kilverpaucar1@gmail.com",
     phone: "+ 51 960 857 646",
     location: "Coishco, Perú",
     social: {
-      github: "https://github.com/tuusuario",
-      linkedin: "https://linkedin.com/in/tuusuario",
+      github: "https://github.com/Kylver21",
+      linkedin: "https://www.linkedin.com/in/kylver-paucar/",
       twitter: "https://twitter.com/tuusuario"
     }
   }
@@ -118,45 +118,30 @@ export const projects: Project[] = [
 export const experiences: Experience[] = [
   {
     id: "1",
-    position: "Desarrollador Frontend Junior",
-    company: "Tech Solutions SAS",
-    period: "Ene 2024 - Presente",
-    description: "Desarrollo de interfaces web responsive usando React y TypeScript. Colaboración en equipo ágil para implementar nuevas funcionalidades y optimizar el rendimiento de aplicaciones web.",
-    technologies: ["React", "TypeScript", "Tailwind CSS", "Git"]
+    position: "Desarrollador Freelance",
+    company: "Proyectos Independientes",
+    period: "2022 - Presente",
+    description: "Diseño y desarrollo de sitios web para emprendimientos locales. Uso de tecnologías modernas para el despliegue y mantenimiento.",
+    technologies: ["HTML/CSS", "JavaScript", "PHP", "MySQL", "WordPress"]
   },
   {
     id: "2",
-    position: "Práctica Profesional",
-    company: "Innovate Digital",
-    period: "Jun 2023 - Dic 2023",
-    description: "Desarrollo de aplicaciones web y móviles. Participación en proyectos de desarrollo full-stack y mantenimiento de sistemas existentes.",
-    technologies: ["JavaScript", "Node.js", "MongoDB", "React Native"]
-  },
-  {
-    id: "3",
-    position: "Desarrollador Freelance",
-    company: "Independiente",
-    period: "2022 - 2023",
-    description: "Desarrollo de sitios web y aplicaciones para pequeñas empresas. Gestión completa de proyectos desde el diseño hasta el deployment.",
-    technologies: ["HTML/CSS", "JavaScript", "PHP", "MySQL", "WordPress"]
+    position: "Practicante de Desarrollo Web",
+    company: "Proyecto Académico UTP",
+    period: "Mar 2023 - Nov 2023",
+    description: "Desarrollo de un sistema de gestión documental en Java utilizando arquitectura MVC y conexión a base de datos MySQL.",
+    technologies: ["Java", "MySQL", "MVC", "Swing"]
   }
 ];
 
 export const education: Education[] = [
-  {
+ {
     id: "1",
     degree: "Ingeniería de Sistemas",
-    institution: "Universidad Tecnologica del Perú",
+    institution: "Universidad Tecnológica del Perú (UTP)",
     period: "2022 - 2026",
-    description: "Enfoque en desarrollo de software, bases de datos y arquitectura de sistemas. Participación activa en proyectos de investigación y desarrollo.",
+    description: "Formación integral en desarrollo de software, bases de datos, seguridad informática y metodologías ágiles. Participación activa en proyectos académicos y extracurriculares.",
     gpa: "4.2/5.0"
   },
-  {
-    id: "2",
-    degree: "Técnico en Programación",
-    institution: "SENA",
-    period: "2020 - 2021",
-    description: "Formación técnica en programación con énfasis en desarrollo web y bases de datos.",
-    gpa: "4.5/5.0"
-  }
+  
 ];
