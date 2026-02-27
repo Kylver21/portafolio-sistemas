@@ -39,9 +39,12 @@ export const Contact = () => {
       // Simular envío de email (aquí puedes integrar EmailJS, SendGrid, etc.)
       await new Promise(resolve => setTimeout(resolve, 1000));
       
+      // Log para propósitos de desarrollo
+      console.log('Datos del formulario:', data);
+      
       toast.success('¡Mensaje enviado con éxito! Te responderé pronto.');
       reset();
-    } catch (error) {
+    } catch {
       toast.error('Error al enviar el mensaje. Por favor, intenta de nuevo.');
     } finally {
       setIsSubmitting(false);

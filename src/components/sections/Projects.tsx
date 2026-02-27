@@ -6,7 +6,6 @@ import { Container } from '@/components/ui/Container';
 import { Button } from '@/components/ui/Button';
 import { projects } from '@/data/portfolio';
 import { Github, ExternalLink, Folder, Star } from 'lucide-react';
-import Image from 'next/image';
 
 export const Projects = () => {
   const [filter, setFilter] = useState<'all' | 'featured'>('all');
