@@ -166,7 +166,7 @@ export const About = () => {
                   alt={personalInfo.name}
                   width={500}
                   height={400}
-                  className="w-full h-96 object-cover transform transition-transform duration-700 hover:scale-105"
+                  className="w-full h-96 object-cover object-[center_20%] transform transition-transform duration-700 hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
               </div>

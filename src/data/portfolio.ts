@@ -1,19 +1,19 @@
 import { PersonalInfo, Project, Skill, Experience, Education } from "@/types";
 
 export const personalInfo: PersonalInfo = {
-  name: "Osver Kylver",
-  title: "Estudiante de Ingeniería de Sistemas",
-  description: "Apasionado por la tecnología y el desarrollo de software. Especializado en desarrollo web full-stack con experiencia en React, Node.js y bases de datos. Siempre buscando nuevos desafíos y oportunidades para crecer profesionalmente.",
-  image: "/Kylver.jpg",
-  resume: "/cv-kylver-paucar.pdf",
+  name: "Osver Kylver Paucar Clavijo",
+  title: "Desarrollador Backend Java",
+  description: "Estudiante de Ingeniería de Sistemas e Informática con enfoque en desarrollo de aplicaciones web full stack. Experiencia en proyectos académicos utilizando Java, Spring Boot y frameworks frontend como React y Angular. Con conocimientos en diseño de APIs REST, bases de datos relacionales y trabajo bajo metodologías ágiles. Interesado en seguir desarrollando soluciones tecnológicas escalables y orientadas a buenas prácticas de software.",
+  image: "/osver-profesional.jpeg",
+  resume: "/CV-OsverPaucar-Profesional.pdf",
   contact: {
     email: "kilverpaucar1@gmail.com",
-    phone: "+ 51 960 857 646",
+    phone: "+51 960 857 646",
     location: "Coishco, Perú",
     social: {
       github: "https://github.com/Kylver21",
-      linkedin: "https://www.linkedin.com/in/kylver-paucar/",
-      twitter: "https://twitter.com/tuusuario"
+      linkedin: "https://linkedin.com/in/osver-paucar",
+      twitter: "https://x.com/OsverPaucar"
     }
   }
 };
@@ -22,95 +22,60 @@ export const skills: Skill[] = [
   // Frontend
   { name: "JavaScript", level: 85, category: "frontend", icon: "🟨" },
   { name: "TypeScript", level: 80, category: "frontend", icon: "🔷" },
-  { name: "React", level: 90, category: "frontend", icon: "⚛️" },
-  { name: "Next.js", level: 85, category: "frontend", icon: "▲" },
-  { name: "HTML/CSS", level: 95, category: "frontend", icon: "🎨" },
-  { name: "Tailwind CSS", level: 90, category: "frontend", icon: "💨" },
+  { name: "React", level: 85, category: "frontend", icon: "⚛️" },
+  { name: "Angular", level: 80, category: "frontend", icon: "🅰️" },
+  { name: "HTML/CSS", level: 90, category: "frontend", icon: "🎨" },
   
   // Backend
-  { name: "Node.js", level: 80, category: "backend", icon: "🟢" },
-  { name: "Express", level: 75, category: "backend", icon: "🚀" },
-  { name: "Python", level: 70, category: "backend", icon: "🐍" },
-  { name: "Java", level: 65, category: "backend", icon: "☕" },
-  { name: "PHP", level: 60, category: "backend", icon: "🐘" },
+  { name: "Java", level: 90, category: "backend", icon: "☕" },
+  { name: "Spring Boot", level: 85, category: "backend", icon: "🍃" },
+  { name: "API REST", level: 90, category: "backend", icon: "🔌" },
+  { name: "JWT", level: 85, category: "backend", icon: "🔐" },
   
   // Database
-  { name: "MySQL", level: 80, category: "database", icon: "🐬" },
-  { name: "PostgreSQL", level: 75, category: "database", icon: "🐘" },
-  { name: "MongoDB", level: 70, category: "database", icon: "🍃" },
-  { name: "Redis", level: 65, category: "database", icon: "🔴" },
+  { name: "MySQL", level: 85, category: "database", icon: "🐬" },
+  { name: "SQL Server", level: 80, category: "database", icon: "💾" },
   
   // Tools
   { name: "Git", level: 90, category: "tools", icon: "📝" },
-  { name: "Docker", level: 70, category: "tools", icon: "🐳" },
-  { name: "AWS", level: 65, category: "tools", icon: "☁️" },
-  { name: "Vercel", level: 85, category: "tools", icon: "▲" },
+  { name: "GitHub", level: 90, category: "tools", icon: "🐙" },
   { name: "Figma", level: 75, category: "tools", icon: "🎨" },
+  { name: "Vercel", level: 80, category: "tools", icon: "▲" },
   
   // Other
-  { name: "Metodologías Ágiles", level: 80, category: "other", icon: "🔄" },
-  { name: "Testing", level: 70, category: "other", icon: "🧪" },
-  { name: "API REST", level: 85, category: "other", icon: "🔌" },
-  { name: "GraphQL", level: 65, category: "other", icon: "📊" }
+  { name: "Scrum", level: 85, category: "other", icon: "🔄" },
+  { name: "ITIL", level: 75, category: "other", icon: "📋" },
+  { name: "Resolución de problemas", level: 90, category: "other", icon: "🧩" },
+  { name: "Comunicación técnica", level: 85, category: "other", icon: "💬" },
+  { name: "Inglés (Intermedio)", level: 70, category: "other", icon: "🌐" }
 ];
 
 export const projects: Project[] = [
   {
     id: "1",
-    title: "Sistema de Gestión Académica",
-    description: "Aplicación web full-stack para gestión de estudiantes, profesores y cursos. Incluye sistema de autenticación, dashboard interactivo y reportes.",
-    technologies: ["React", "Node.js", "MySQL", "Express", "Tailwind CSS"],
+    title: "Sistema de Documentación Legal",
+    description: "Desarrollo de un sistema de documentación legal utilizando arquitectura MVC. Implementé módulos de autenticación, gestión de usuarios y conexión a base de datos. Desarrollé operaciones CRUD aplicando el patrón DAO para la persistencia de datos. Utilicé Java, Swing y MySQL para la construcción de interfaces y lógica de negocio.",
+    technologies: ["Java", "MySQL", "MVC", "Swing", "DAO"],
     image: "/projects/project1.jpg",
-    githubUrl: "https://github.com/tuusuario/gestion-academica",
-    liveUrl: "https://gestion-academica.vercel.app",
+    githubUrl: "https://github.com/Kylver21",
     featured: true
   },
   {
     id: "2",
-    title: "E-Commerce Responsive",
-    description: "Tienda online con carrito de compras, sistema de pagos, gestión de productos y panel de administración.",
-    technologies: ["Next.js", "TypeScript", "Stripe", "PostgreSQL", "Prisma"],
+    title: "Hackathon UTP+ by Xpedition",
+    description: "Integrante del equipo 'Los Migajeros' en el desarrollo de una solución tecnológica. Participación activa en la ideación, análisis y propuesta de solución. Trabajo colaborativo bajo presión y cumplimiento de tiempos establecidos.",
+    technologies: ["Trabajo en equipo", "Ideación", "Análisis", "Propuesta de solución"],
     image: "/projects/project2.jpg",
-    githubUrl: "https://github.com/tuusuario/ecommerce-app",
-    liveUrl: "https://ecommerce-app.vercel.app",
+    githubUrl: "https://github.com/Kylver21",
     featured: true
   },
   {
     id: "3",
-    title: "API REST Blog",
-    description: "API REST completa para un blog con autenticación JWT, CRUD de posts, comentarios y sistema de likes.",
-    technologies: ["Node.js", "Express", "MongoDB", "JWT", "Postman"],
+    title: "Hackathon Comercio - UTP",
+    description: "Desarrollo de propuesta de solución tecnológica orientada al sector comercio. Trabajo en equipo multidisciplinario y presentación de resultados.",
+    technologies: ["Propuesta tecnológica", "Sector comercio", "Trabajo en equipo"],
     image: "/projects/project3.jpg",
-    githubUrl: "https://github.com/tuusuario/blog-api",
-    featured: false
-  },
-  {
-    id: "4",
-    title: "Dashboard Analytics",
-    description: "Panel de control con gráficos interactivos, métricas en tiempo real y exportación de datos.",
-    technologies: ["React", "Chart.js", "Firebase", "Material-UI"],
-    image: "/projects/project4.jpg",
-    githubUrl: "https://github.com/tuusuario/analytics-dashboard",
-    liveUrl: "https://analytics-dashboard.vercel.app",
-    featured: false
-  },
-  {
-    id: "5",
-    title: "App Móvil Tareas",
-    description: "Aplicación móvil para gestión de tareas con sincronización offline, notificaciones push y colaboración en equipo.",
-    technologies: ["React Native", "Expo", "SQLite", "AsyncStorage"],
-    image: "/projects/project5.jpg",
-    githubUrl: "https://github.com/tuusuario/tasks-mobile",
-    featured: false
-  },
-  {
-    id: "6",
-    title: "Sistema de Reservas",
-    description: "Plataforma web para reservas de citas con calendario interactivo, notificaciones por email y panel administrativo.",
-    technologies: ["Vue.js", "Laravel", "MySQL", "EmailJS"],
-    image: "/projects/project6.jpg",
-    githubUrl: "https://github.com/tuusuario/sistema-reservas",
-    liveUrl: "https://reservas-app.vercel.app",
+    githubUrl: "https://github.com/Kylver21",
     featured: false
   }
 ];
@@ -118,30 +83,37 @@ export const projects: Project[] = [
 export const experiences: Experience[] = [
   {
     id: "1",
-    position: "Desarrollador Freelance",
-    company: "Proyectos Independientes",
-    period: "2022 - Presente",
-    description: "Diseño y desarrollo de sitios web para emprendimientos locales. Uso de tecnologías modernas para el despliegue y mantenimiento.",
-    technologies: ["HTML/CSS", "JavaScript", "PHP", "MySQL", "WordPress"]
+    position: "Desarrollador Backend Java",
+    company: "Proyecto Académico - Universidad Tecnológica del Perú",
+    period: "Marzo 2023 - Diciembre 2025",
+    description: "Participé en el desarrollo de un sistema de documentación legal utilizando arquitectura MVC. Implementé módulos de autenticación, gestión de usuarios y conexión a base de datos. Desarrollé operaciones CRUD aplicando el patrón DAO para la persistencia de datos. Utilicé Java, Swing y MySQL para la construcción de interfaces y lógica de negocio. Realicé testing de funcionales y validación de módulos en entorno local. Colaboré con el equipo en la corrección de errores y mejoras del sistema.",
+    technologies: ["Java", "MySQL", "MVC", "Swing", "DAO"]
   },
   {
     id: "2",
-    position: "Practicante de Desarrollo Web",
-    company: "Proyecto Académico UTP",
-    period: "Mar 2023 - Nov 2023",
-    description: "Desarrollo de un sistema de gestión documental en Java utilizando arquitectura MVC y conexión a base de datos MySQL.",
-    technologies: ["Java", "MySQL", "MVC", "Swing"]
+    position: "Participante",
+    company: "Hackathon UTP+ by Xpedition",
+    period: "Junio 2025 - Julio 2025",
+    description: "Integrante del equipo 'Los Migajeros' en el desarrollo de una solución tecnológica. Participación activa en la ideación, análisis y propuesta de solución. Trabajo colaborativo bajo presión y cumplimiento de tiempos establecidos.",
+    technologies: ["Trabajo en equipo", "Ideación", "Análisis"]
+  },
+  {
+    id: "3",
+    position: "Participante",
+    company: "Hackathon Comercio - UTP",
+    period: "Noviembre 2025 - Diciembre 2025",
+    description: "Desarrollo de propuesta de solución tecnológica orientada al sector comercio. Trabajo en equipo multidisciplinario y presentación de resultados.",
+    technologies: ["Propuesta tecnológica", "Presentación"]
   }
 ];
 
 export const education: Education[] = [
- {
+  {
     id: "1",
-    degree: "Ingeniería de Sistemas",
+    degree: "Ingeniería de Sistemas e Informática",
     institution: "Universidad Tecnológica del Perú (UTP)",
-    period: "2022 - 2026",
-    description: "Formación integral en desarrollo de software, bases de datos, seguridad informática y metodologías ágiles. Participación activa en proyectos académicos y extracurriculares.",
-    gpa: "4.2/5.0"
-  },
-  
+    period: "Marzo 2022 - Actualidad",
+    description: "Formación en desarrollo de software, arquitectura de aplicaciones web y gestión de bases de datos. Participación activa en proyectos académicos orientados a la solución de problemas reales.",
+    gpa: ""
+  }
 ];

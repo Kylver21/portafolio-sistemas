@@ -206,18 +206,19 @@ export const Hero = () => {
               variants={imageVariants}
               className="relative"
             >
-              <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96">
+              <div className="relative w-72 h-72 md:w-96 md:h-96 lg:w-[28rem] lg:h-[28rem]">
                 {/* Gradient Background */}
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-400 to-purple-600 rounded-full blur-xl opacity-30" />
                 
                 {/* Main Image Container */}
                 <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-white dark:border-gray-800 shadow-2xl">
                   <Image
-                    src="/yo.jpg"
+                    src={personalInfo.image}
                     alt={personalInfo.name}
                     fill
-                    className="object-cover"
-                    sizes="(max-width: 768px) 16rem, (max-width: 1024px) 20rem, 24rem"
+                    className="object-cover object-[center_20%] scale-110"
+                    sizes="(max-width: 768px) 18rem, (max-width: 1024px) 24rem, 28rem"
+                    priority
                   />
                 </div>
                 

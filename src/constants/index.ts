@@ -1,7 +1,7 @@
 export const SITE_CONFIG = {
   name: "Portafolio - Ingeniería de Sistemas",
   description: "Portafolio profesional de estudiante de Ingeniería de Sistemas",
-  url: "https://tu-dominio.vercel.app",
+  url: "https://portafolio-sistemas-one.vercel.app/",
   ogImage: "/og-image.jpg",
   themeColor: "#000000",
 };
